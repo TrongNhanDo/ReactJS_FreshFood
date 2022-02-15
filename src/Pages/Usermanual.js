@@ -27,7 +27,7 @@ class Usermanual extends Component {
                 <Link to='' className='button'>Xem thêm...</Link>
             </div>
             <hr style={{ marginTop: '30px' }} />
-        </div >
+        </div>
     }
     render() {
         return (
