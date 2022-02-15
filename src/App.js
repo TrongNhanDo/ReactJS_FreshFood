@@ -7,12 +7,12 @@ import Job from './Pages/Job'
 import News from './Pages/News'
 import Usermanual from './Pages/Usermanual'
 import Cart from './Pages/Cart'
-import Payment_guide from './Pages/Payment_guide';
-import Shopping_guide from './Pages/Shopping_guide'
-import Policy_general from './Pages/Policy_general'
-import Policy_information from './Pages/Policy_information_privacy'
-import Policy_refund from './Pages/Policy_refund'
-import Policy_shipping from './Pages/Policy_shipping'
+import Paymentguide from './Pages/Payment_guide';
+import Shoppingguide from './Pages/Shopping_guide'
+import Policygeneral from './Pages/Policy_general'
+import Policyinformation from './Pages/Policy_information_privacy'
+import Policyrefund from './Pages/Policy_refund'
+import Policyshipping from './Pages/Policy_shipping'
 
 function App() {
   return (
@@ -69,12 +69,12 @@ function App() {
           <Route path='/cangnangsudung' element={<Usermanual />} />
           <Route path='/tintuc' element={<News />} />
           <Route path='/giohang' element={<Cart />} />
-          <Route path='/huongdanthanhtoan' element={<Payment_guide />} />
-          <Route path='/huongdanmuahang' element={<Shopping_guide />} />
-          <Route path='/chinhsachvaquydinhchung' element={<Policy_general />} />
-          <Route path='/chinhsachvanchuyen' element={<Policy_shipping />} />
-          <Route path='/chinhsachdoitrahang' element={<Policy_refund />} />
-          <Route path='/chinhsachbaomatthongtin' element={<Policy_information />} />
+          <Route path='/huongdanthanhtoan' element={<Paymentguide />} />
+          <Route path='/huongdanmuahang' element={<Shoppingguide />} />
+          <Route path='/chinhsachvaquydinhchung' element={<Policygeneral />} />
+          <Route path='/chinhsachvanchuyen' element={<Policyshipping />} />
+          <Route path='/chinhsachdoitrahang' element={<Policyrefund />} />
+          <Route path='/chinhsachbaomatthongtin' element={<Policyinformation />} />
         </Routes>
       </div>
       <div className='footer'>
