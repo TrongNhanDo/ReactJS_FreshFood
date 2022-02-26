@@ -37,20 +37,20 @@ function App() {
           <button className="dropbtn">Sản phẩm buôn <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <Link to="/cate1">Thịt cừu Úc</Link>
-            <Link to="/cate2">Cá hòi Na Uy</Link>
-            <Link to="/cate3">Thịt bò Mỹ</Link>
-            <Link to="/cate4">Thịt bò Úc</Link>
-            <Link to="/cate5">Cá Ngừ</Link>
+            <Link to="/thit-cuu-uc">Thịt cừu Úc</Link>
+            <Link to="/ca-hoi-na-uy">Cá hòi Na Uy</Link>
+            <Link to="/thit-bo-my">Thịt bò Mỹ</Link>
+            <Link to="/thit-bo-uc">Thịt bò Úc</Link>
+            <Link to="/ca-ngu">Cá Ngừ</Link>
           </div>
         </div>
         <div className="dropdown">
           <button className="dropbtn">Bán lẻ <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <Link to="/cate1">Thịt & cá nhập khẩu</Link>
-            <Link to="/cate2">Sốt & gia vị</Link>
-            <Link to="/cate3">Thực phẩm</Link>
+            <Link to="/thit-ca-nhap-khau">Thịt & cá nhập khẩu</Link>
+            <Link to="/sot-gia-vi">Sốt & gia vị</Link>
+            <Link to="/thuc-pham">Thực phẩm</Link>
           </div>
         </div>
         <Link style={{ padding: "21px 20px" }} to='/vieclam'>Việc làm</Link>
@@ -111,7 +111,7 @@ function App() {
           <img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/42008041469/original/Mo9gDy2XMZLppkUw4sWCsYV-lk65HqqgQw.gif?1539077990" alt="" width={'90%'} />
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 
